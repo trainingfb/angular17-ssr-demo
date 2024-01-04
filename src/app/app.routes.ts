@@ -6,5 +6,6 @@ export const routes: Routes = [
   { path: 'demo3', loadComponent: () => import('./features/demo3.component')},
   { path: 'demo4', loadComponent: () => import('./features/demo4.component')},
   { path: 'demo5', loadComponent: () => import('./features/demo5.component')},
+  { path: 'demo6', loadComponent: () => import('./features/demo6.component')},
   { path: '', redirectTo: 'demo1', pathMatch: 'full'}
 ];
